@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MindEscape.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UNREAL\MindEscape\Intermediate\Build\Win64\MindEscapeEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\UNREAL\MindEscape\Intermediate\Build\Win64\UE4Editor\Development\MindEscape\MindEscape.cpp.obj"
+"D:\UNREAL\MindEscape\Intermediate\Build\Win64\UE4Editor\Development\MindEscape\MindEscapeGameModeBase.cpp.obj"
+"D:\UNREAL\MindEscape\Intermediate\Build\Win64\UE4Editor\Development\MindEscape\MindEscape.init.gen.cpp.obj"
+"D:\UNREAL\MindEscape\Intermediate\Build\Win64\UE4Editor\Development\MindEscape\MindEscapeGameModeBase.gen.cpp.obj"
+"D:\UNREAL\MindEscape\Intermediate\Build\Win64\UE4Editor\Development\MindEscape\PCLaunch.rc.res"
+/OUT:"D:\UNREAL\MindEscape\Intermediate\Build\Win64\UE4Editor\Development\MindEscape\UE4Editor-MindEscape.lib"

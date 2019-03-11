@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MindEscape.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{13B043D4-66FD-47F9-A7AD-7D407149341A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MindEscape.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MindEscapeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{02DD7C1B-2F2E-48CE-B5A2-F4EF4F76D3E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MindEscape">
+      <UniqueIdentifier>{54769AF8-C38D-483B-8071-B1752263E1FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MindEscape\MindEscape.Build.cs">
+      <Filter>Source\MindEscape</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MindEscape\MindEscape.cpp">
+      <Filter>Source\MindEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MindEscape\MindEscape.h">
+      <Filter>Source\MindEscape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MindEscape\MindEscapeGameModeBase.cpp">
+      <Filter>Source\MindEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MindEscape\MindEscapeGameModeBase.h">
+      <Filter>Source\MindEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
